@@ -1,0 +1,245 @@
+[Root]
+Most Recent Package=Standard Setup PkgKPI2020
+
+
+[Package|Standard Setup PkgKPI|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\Setup\New Setup
+
+[Package|Standard Setup PkgKPI|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup PkgKPI|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup PkgKPI|Files Found]
+
+[Package|Standard Setup PkgKPI|Files Released]
+
+[Package|Standard Setup PkgKPI|Missing Dependency Information]
+C:\Windows\plsReg\COMDLG32.OCX=
+C:\Windows\plsReg\COMCTL32.OCX=
+C:\Windows\plsReg\MSDATGRD.OCX=
+C:\Windows\SysWOW64\MSSTDFMT.DLL=
+C:\Program Files (x86)\Microsoft Office\Office12\EXCEL.EXE=
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=
+
+[Package|Standard Setup PkgKPI|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\scrrun.dll=
+
+[Package|Standard Setup PkgKPI|Files Added]
+
+[Package|Standard Setup PkgKPI|Files Removed]
+
+[Package|Standard Setup PkgKPI|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\SysWOW64\scrrun.dll=Yes
+C:\Windows\SysWOW64\msvcrt.dll=Yes
+C:\Program Files (x86)\Microsoft Office\Office12\EXCEL.EXE=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\MSSTDFMT.DLL=Yes
+C:\Windows\SysWOW64\MSCHRT20.OCX=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\KPEI16.exe=Yes
+C:\Windows\SysWOW64\MSDATGRD.OCX=Yes
+C:\Windows\SysWOW64\COMCTL32.OCX=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+
+[Package|Standard Setup PkgKPI|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup PkgKPI|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup PkgKPI|Install Locations]
+D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\KPEI.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\scrrun.dll=$(WinSysPath)
+C:\Windows\SysWOW64\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Office\Office12\EXCEL.EXE=$(WinPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\plsReg\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCHRT20.OCX=$(WinSysPath)
+C:\Windows\plsReg\COMCTL32.OCX=$(WinSysPath)
+C:\Windows\plsReg\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\KPEI16.exe=$(AppPath)
+C:\Windows\SysWOW64\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\COMCTL32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+
+[Package|Standard Setup PkgKPI|Configure Shared Files]
+Applicable=Yes
+D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\KPEI.exe=Yes
+D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\KPEI16.exe=Yes
+
+[Package|Standard Setup PkgKPI|Distribution]
+Type=single
+Size=1.44 MB
+Title=KPI Software Setup Wizard
+
+[Package|Standard Setup PkgKPI|IconGroups]
+Group0=KPI Software
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup PkgKPI|KPI Software]
+Icon1=KPEI.exe
+Title1=KPI Software
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup PkgKPI|Package]
+PackageFolder=D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\Setup\New Setup
+ProjectFolder=D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software
+ServerSideCab=
+File1=D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\Setup\New Setup\setup.exe
+File2=D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\Setup\New Setup\Setup.Lst
+File3=D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\Setup\New Setup\KPEI16.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup PkgKPI2020|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\Setup\New Setup\kpi2020
+
+[Package|Standard Setup PkgKPI2020|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup PkgKPI2020|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup PkgKPI2020|Files Found]
+
+[Package|Standard Setup PkgKPI2020|Files Released]
+
+[Package|Standard Setup PkgKPI2020|Missing Dependency Information]
+C:\Windows\plsReg\COMDLG32.OCX=
+C:\Windows\plsReg\COMCTL32.OCX=
+C:\Windows\plsReg\MSDATGRD.OCX=
+C:\Windows\SysWOW64\MSSTDFMT.DLL=
+C:\Program Files (x86)\Microsoft Office\Office12\EXCEL.EXE=
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=
+C:\Windows\SysWOW64\shell32.dll=
+
+[Package|Standard Setup PkgKPI2020|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\scrrun.dll=
+C:\Windows\SysWOW64\MSCOMCTL.OCX=
+
+[Package|Standard Setup PkgKPI2020|Files Added]
+
+[Package|Standard Setup PkgKPI2020|Files Removed]
+
+[Package|Standard Setup PkgKPI2020|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\SysWOW64\scrrun.dll=Yes
+C:\Windows\SysWOW64\msvcrt.dll=Yes
+C:\Program Files (x86)\Microsoft Office\Office12\EXCEL.EXE=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\MSSTDFMT.DLL=Yes
+C:\Windows\SysWOW64\MSCHRT20.OCX=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Windows\SysWOW64\MSDATGRD.OCX=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\KPEI35.exe=Yes
+C:\Windows\SysWOW64\shell32.dll=Yes
+C:\Windows\SysWOW64\MSCOMCTL.OCX=Yes
+
+[Package|Standard Setup PkgKPI2020|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup PkgKPI2020|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup PkgKPI2020|Install Locations]
+D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\KPEI.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\scrrun.dll=$(WinSysPath)
+C:\Windows\SysWOW64\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Office\Office12\EXCEL.EXE=$(WinPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\plsReg\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCHRT20.OCX=$(WinSysPath)
+C:\Windows\plsReg\COMCTL32.OCX=$(WinSysPath)
+C:\Windows\plsReg\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\KPEI16.exe=$(AppPath)
+C:\Windows\SysWOW64\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\COMCTL32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\KPEI35.exe=$(AppPath)
+C:\Windows\SysWOW64\shell32.dll=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCTL.OCX=$(WinSysPath)
+
+[Package|Standard Setup PkgKPI2020|Configure Shared Files]
+Applicable=Yes
+D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\KPEI.exe=Yes
+D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\KPEI16.exe=Yes
+D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\KPEI35.exe=Yes
+
+[Package|Standard Setup PkgKPI2020|Distribution]
+Type=single
+Size=1.44 MB
+Title=KPI Software Setup 2020
+
+[Package|Standard Setup PkgKPI2020|IconGroups]
+Group0=KPI Software
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup PkgKPI2020|KPI Software]
+Icon1=KPEI.exe
+Title1=KPI Software
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup PkgKPI2020|Package]
+PackageFolder=D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\Setup\New Setup\kpi2020
+ProjectFolder=D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software
+ServerSideCab=
+File1=D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\Setup\New Setup\kpi2020\setup.exe
+File2=D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\Setup\New Setup\kpi2020\Setup.Lst
+File3=D:\Ganesh\Dropbox\Dropbox\Project work\VB Project\KPI Software\Setup\New Setup\kpi2020\KPEI35.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
